@@ -5,21 +5,21 @@ first_input = {
     'squares': 8,
     'cards': 13,
     'sequence': 'RYGPBRYGBRPOP',
-    'cardList': 'R,B,GG,Y,P,B,P,RR'
+    'card_list': 'R,B,GG,Y,P,B,P,RR'
 }
 second_input = {
     'players': 2,
     'squares': 6,
     'cards': 5,
     'sequence': 'RYGRYB',
-    'cardList': 'R,YY,G,G,B'
+    'card_list': 'R,YY,G,G,B'
 }
 third_input = {
     'players': 3,
     'squares': 9,
     'cards': 6,
     'sequence': 'QQQQQQQQQ',
-    'cardList': 'Q,QQ,Q,Q,QQ,Q'
+    'card_list': 'Q,QQ,Q,Q,QQ,Q'
 }
 
 
