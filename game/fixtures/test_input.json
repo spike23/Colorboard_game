@@ -1,0 +1,35 @@
+[
+  {
+    "model": "game.GameTestInput",
+    "pk": 1,
+    "fields": {
+      "players": 2,
+      "squares": 8,
+      "cards": 13,
+      "sequence": "RYGPBRYGBRPOP",
+      "card_list": "R,B,GG,Y,P,B,P,RR"
+    }
+  },
+  {
+    "model": "game.GameTestInput",
+    "pk": 2,
+    "fields": {
+      "players": 2,
+      "squares": 6,
+      "cards": 5,
+      "sequence": "RYGRYB",
+      "card_list": "R,YY,G,G,B"
+    }
+  },
+  {
+    "model": "game.GameTestInput",
+    "pk": 3,
+    "fields": {
+      "players": 3,
+      "squares": 9,
+      "cards": 6,
+      "sequence": "QQQQQQQQQ",
+      "card_list": "Q,QQ,Q,Q,QQ,Q"
+    }
+  }
+]

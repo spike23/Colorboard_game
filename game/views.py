@@ -2,13 +2,17 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 from .forms import GameForm
-from .models import GameData
-from drafts.game import first_input, second_input, third_input
-#  TODO transfer test data to model
+from .models import GameData, GameTestInput
 
 
 def index(request):
+
     test_case = request.GET.get('input')
+
+    first_input = GameTestInput.objects.filter(pk=1).values()[0]
+    second_input = GameTestInput.objects.filter(pk=2).values()[0]
+    third_input = GameTestInput.objects.filter(pk=3).values()[0]
+
     if test_case == '1':
         form = GameForm(initial=first_input)
         return render(request, 'index.html', {'form': form})

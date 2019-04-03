@@ -54,6 +54,6 @@ def deck_generator(player, deck):
 
 
 if __name__ == '__main__':
-    game_result(first_input.get('players'), first_input.get('sequence'), first_input.get('cardList'))
-    game_result(second_input.get('players'), second_input.get('sequence'), second_input.get('cardList'))
-    game_result(third_input.get('players'), third_input.get('sequence'), third_input.get('cardList'))
+    game_result(first_input.get('players'), first_input.get('sequence'), first_input.get('card_list'))
+    game_result(second_input.get('players'), second_input.get('sequence'), second_input.get('card_list'))
+    game_result(third_input.get('players'), third_input.get('sequence'), third_input.get('card_list'))

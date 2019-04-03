@@ -41,26 +41,26 @@ first_input = {
     'squares': 8,
     'cards': 13,
     'sequence': 'RYGPBRYGBRPOP',
-    'cardList': 'R,B,GG,Y,P,B,P,RR'
+    'card_list': 'R,B,GG,Y,P,B,P,RR'
 }
 second_input = {
     'players': 2,
     'squares': 6,
     'cards': 5,
     'sequence': 'RYGRYB',
-    'cardList': 'R,YY,G,G,B'
+    'card_list': 'R,YY,G,G,B'
 }
 third_input = {
     'players': 3,
     'squares': 9,
     'cards': 6,
     'sequence': 'QQQQQQQQQ',
-    'cardList': 'Q,QQ,Q,Q,QQ,Q'
+    'card_list': 'Q,QQ,Q,Q,QQ,Q'
 }
 
-first = Game(first_input.get('players'), first_input.get('sequence'), first_input.get('cardList'))
-second = Game(second_input.get('players'), second_input.get('sequence'), second_input.get('cardList'))
-third = Game(third_input.get('players'), third_input.get('sequence'), third_input.get('cardList'))
+first = Game(first_input.get('players'), first_input.get('sequence'), first_input.get('card_list'))
+second = Game(second_input.get('players'), second_input.get('sequence'), second_input.get('card_list'))
+third = Game(third_input.get('players'), third_input.get('sequence'), third_input.get('card_list'))
 
 if __name__ == '__main__':
     first.game_result()

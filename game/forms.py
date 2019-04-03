@@ -1,5 +1,7 @@
 from django import forms
 
+from game.models import GameTestInput
+
 
 class GameForm(forms.Form):
     players = forms.IntegerField(
