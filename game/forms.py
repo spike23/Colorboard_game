@@ -21,5 +21,5 @@ class GameForm(forms.Form):
 
     card_list = forms.CharField(
         widget=forms.TextInput(
-            attrs={'class': 'form-control', 'placeholder': 'Cards in the deck', 'pattern': '[A-Za-z ]+',
+            attrs={'class': 'form-control', 'placeholder': 'Cards in the deck', 'pattern': '[A-Za-z,]+',
                    'title': 'Enter characters only, for example: Q,QQ,Q,Q,QQ,Q'}))
