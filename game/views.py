@@ -48,14 +48,13 @@ def game(request):
     return redirect('index')
 
 
-# TODO fill in docstring
 def game_result(number_of_players, board_sequence, cards_in_deck):
     """
 
-    :param number_of_players:
-    :param board_sequence:
-    :param cards_in_deck:
-    :return:
+    :param number_of_players: quantity of players
+    :param board_sequence: sequence set
+    :param cards_in_deck: set of cards in deck
+    :return: result of the game
     """
     cards_list = [card_symbol for card_symbol in cards_in_deck.split(',')]
     players = range(1, number_of_players + 1)
@@ -71,13 +70,12 @@ def game_result(number_of_players, board_sequence, cards_in_deck):
     return 'No player won after {0} cards.'.format(len(cards_list))
 
 
-# TODO fill in docstring
 def deck_generator(player, deck):
     """
 
-    :param player:
-    :param deck:
-    :return:
+    :param player: range of players
+    :param deck: content of the card_list
+    :return: combination of values from range of players and card_list
     """
     player_index = 0
     deck_index = 0
